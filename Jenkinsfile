@@ -1,9 +1,9 @@
 pipeline {
     agent none 
     environment {
-        registry = "linhbngo/go_server"
-        docker_user = "linhbngo"
-        docker_app = "go_server"
+        registry = "rr935981/go_app"
+        docker_user = "rr935981"
+        docker_app = "go_app"
         GOCACHE = "/tmp"
     }
     stages {
